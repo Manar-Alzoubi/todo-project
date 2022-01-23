@@ -1,53 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        img {
+            border-radius: 50%;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
+    <div class="mycontainer">
+        <div class="myheader">
+            <img src="todo.jpg" style="width:150px;height:150px;">
 
-        <img src="todo.jpg" width:10px;height:10px;">
-        <p> To-Do List</p>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-        </nav>
-    </header>
+            <nav class="header-nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </div>
+    <img src="Manar.jpg" width="400" height="400">
+    <div class="p1">Manar Alzoubi</div>
+    <div class="p2">I am Manar ALzoubi, <br>
+
+        I studied Masters of computer science <br>
+        in Yarmouk university <br>
+        I am 33 years old <br>
+        and I have two daughters<br>
+        Sadan 8 years and Elien 6 years</div>
    
-</body>
-<main>
-<section>
-    <img src="Manar.jpg" width:70px;height:70px;">
-    <p> I am Manar ALzoubi, I studied Masters of computer science in Yarmouk university , I am 33 years old and I have two daughters Sadan 8 years and Elien 6 years</p>
-    <p> This is My first website </p>
-</section>
-
-<section>
-    
-<form action="/action_page.php">
-    <label for="fname">Full name:</label><br>
-    <input type="text" id="fname" name="fname" value="Mohammad"><br>
-    
-    
-    <label for="fname">e-mail:</label><br>
-    <input type="text" id="fname" name="fname" value="username@xxxxxx.xxxxx"><br>
-    
-    <label for="fname">message:</label><br>
-    <input type="text" id="fname" name="fname" value="your message here"><br>   
-    
-    <input type="submit" value="Submit">
-  </form> 
-  
-</section>
-
-</main>
 
 
-<footer>
-    <p>  all rights reserved. copyright © 2022 </p>
-    <p> Manar Alzoubi</p>
-</footer>
-</html>
+    <div class="contact-me">
+        <p>Contact me please :</p>
+
+
+    </div>
+    <form action="/action_page.php">
+        <div class="row">
+            <div class="col-25">
+                <label for="fname">your Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="e-mail">e-mail</label>
+            </div>
+            
+        </div>
+
+        <div class="col-75">
+            <textarea id="e-mail" name="e-mail" placeholder="Write something.." style="height:200px"></textarea>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+                <label for="message"></label> message</label>
+            </div>
+            <div class="col-75">
+                <textarea id="message" name="e-mail" placeholder="Write somethingyour message.." style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+    </div>
+    <div class="footer">
+
+        <p> all rights reserved. copyright © 2022 </p>
+        <p> Manar Alzoubi</p>
+    </div>
+
+    </div>
