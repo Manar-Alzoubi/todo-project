@@ -6,26 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Todo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
+  <div class="container">
 
-  <header>
+    <div class="header">
+      <img src="todo.jpg" style="width:150px;height:150px;">
 
-    <img src="todo.jpg" width:10px;height:10px;">
-    <p> To-Do List</p>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-  </header>
-
-  <main>
-
-
-    <section>
-      <table border="1" width="30%">
+      <nav class="header-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+    <div class="p">TO-Do List</div>
+    <div class="table">
+      <table border "1" width="200%">
         <tr>
           <th>Task</th>
           <th>Status</th>
@@ -33,23 +31,29 @@
         </tr>
         <tr>
           <td><input type="checkbox">
-            <label> Learn HTML</label><br>
+            <label> Learn HTML </label><br>
           </td>
-          <td> Done</td>
+          <td>
+            <h1 style="background-color:MediumSeaGreen;">DONE</h1>
+          </td>
 
         </tr>
         <tr>
           <td><input type="checkbox">
             <label> Learn Javascript</label><br>
           </td>
-          <td>Waiting</td>
+          <td>
+            <h1 style="background-color:orange;">waiting ... </h1>
+          </td>
 
         </tr>
         <tr>
           <td><input type="checkbox">
             <label> Play with daughters</label><br>
           </td>
-          <td>Waiting</td>
+          <td>
+            <h1 style="background-color:orange;">waiting ... </h1>
+          </td>
 
         </tr>
 
@@ -57,20 +61,23 @@
           <td><input type="checkbox">
             <label> visit parents</label><br>
           </td>
-          <td>Waiting</td>
+          <td>
+            <h1 style="background-color:orange;">waiting ... </h1>
+          </td>
 
         </tr>
 
       </table>
-    </section>
-     <!-- <script  src="app.js"></script> -->
 
-  </main>
+    </div>
+    <div class="footer">
 
-  <footer>
-    <p> all rights reserved. copyright © 2022 </p>
-    <p> Manar Alzoubi</p>
-  </footer>
-</body>
+      <p> all rights reserved. copyright © 2022 </p>
+      <p> Manar Alzoubi</p>
+    </div>
+  </div>
+  <header>
+
+
 
 </html>
